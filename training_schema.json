@@ -1,0 +1,18 @@
+{
+  "x_columns": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "PhoneService_Yes",
+    "Contract_One year",
+    "Contract_Two year",
+    "PaymentMethod_Credit card (automatic)",
+    "PaymentMethod_Electronic check",
+    "PaymentMethod_Mailed check",
+    "ChargePerMonth"
+  ],
+  "train_is_onehot": true,
+  "rename_map": {
+    "charge_per_tenure": "ChargePerMonth"
+  }
+}
